@@ -8,5 +8,5 @@ module.exports = {
       {path: "contact", label: "Contact Me"},
     ]
   },
-  plugins: ["gatsby-plugin-gatsby-cloud", "gatsby-plugin-sitemap", "gatsby-plugin-sass", "gatsby-plugin-smoothscroll", "react-scrollspy"],
+  plugins: ["gatsby-plugin-gatsby-cloud", "gatsby-plugin-sitemap", "gatsby-plugin-sass", "gatsby-plugin-smoothscroll"],
 };
