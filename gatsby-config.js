@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/MyPortfolio",
   siteMetadata: {
     title: "Portfolio",
     siteUrl: "https://kindboi.github.io/MyPortfolio/",
