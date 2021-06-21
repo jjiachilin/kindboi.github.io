@@ -1,0 +1,133 @@
+$font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+//Colors
+$white: #fff;
+$black: #000;
+$maroon: #83333e;
+$off-white: #f2f4f5;
+
+html,
+body {
+  font-family: $font;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  background: $white;
+}
+
+.container {
+  margin: 0 auto;
+
+}
+
+//Header
+header {
+  margin-top: 1%;
+  margin-bottom: 1%;
+    .navigation {
+      display: flex;
+      justify-content: center;
+        nav {
+          position: fixed;
+          button {
+            padding: 10px 20px;
+            background-color: transparent;
+            margin: 0 10px;
+            text-decoration: none;
+            letter-spacing: 1.75px;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            color: $black;
+            border: none;
+            cursor: pointer;
+          }
+          button:hover {
+            background-color: $off-white;
+          }
+        }
+    }
+}
+
+footer {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  .contact {
+    .links {
+      display: flex;
+      justify-content: center;
+      img {
+        margin: 20px 20px 20px 20px;
+      }
+    }
+  }
+}
+
+.about-blurb {
+  padding: 48px 0;
+  .heading {
+    display:flex;
+    justify-content: center;
+    width: 33%;
+    margin:auto;
+    img {
+      margin: 8px
+    }
+    h3 {
+      display: inline;
+      text-align: center;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      letter-spacing: 1.5px;
+      margin: 0;
+    }
+  }
+    .inner-blurb {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    .content {
+      width: 33%;
+      
+      p {
+        text-align: center;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        margin: 20px 0 20px;
+      }
+    }
+  }
+}
+
+.experience {
+  .inner-blurb{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    .content {
+      width: 33%;
+      h3 {
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        letter-spacing: 1.5px;
+        margin: 0;
+      }
+      h4 {
+        font-weight: 500;
+        font-size: 1.3rem;
+        letter-spacing: 1.5px;
+        margin-bottom: auto;
+      }
+      p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        margin: 10px 0 20px;
+      }
+    }
+  }
+}
