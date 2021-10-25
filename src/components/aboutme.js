@@ -15,11 +15,11 @@ const AboutMe = () => {
           <div className="inner-blurb">
             <div className="content">
               <p>
-                I'm a rising senior currently studying computer science at UCLA. 
-                My academic passions include: machine learning, distributed/decentralized 
+                I'm a senior studying computer science at UCLA Engineering. 
+                My academic passions include: machine learning, computer vision, distributed/decentralized 
                 systems, blockchain technology. When I'm not studying or working on technical 
                 projects or doing research, I enjoy reading novels, playing basketball and working 
-                out with friends, and learning and writing about new defi projects! Check me out on 
+                out with friends, and writing about tech that excites me. Check me out on 
                 Medium in the contact section!
               </p>
             </div>

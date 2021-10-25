@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import Github from "../images/Github-Mark.jpg"
+import Github from "../images/github.jpg"
 import LinkedIn from "../images/linkedin.png"
 import Medium from "../images/medium.png"
 
